@@ -18,3 +18,13 @@ import generateRGB from 'ratio-rgb-generator';
 generateRGB(ratio);
 ```
 
+To get a speed ratio :
+
+```js
+import generateRGB from 'ratio-rgb-generator';
+
+const fn = (min, max, x) => x / (max - min);
+const ratio = fn(minSpeed, maxSpeed, speed);
+
+generateRGB(ratio);
+```
