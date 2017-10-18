@@ -1,4 +1,4 @@
-export default function generate(ratio) {
+module.exports = function generate(ratio) {
   let min = 60, max = 220, breakdown = .5, r, g, b = 60;
 
   let a1 = (() => (max - min) / breakdown)();
