@@ -1,0 +1,19 @@
+{
+  "name": "ratio-rgb-generator",
+  "version": "1.0.0",
+  "description": "Returns a rgb color from green to red from a ratio",
+  "main": "ratio-rgb-generator.js",
+  "scripts": {},
+  "author": "Olivier Gasc <gasc.olivier@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:oliv/ratio-rgb-generator.git"
+  },
+  "keywords": [
+    "rgb",
+    "generator",
+    "ratio"
+  ],
+  "dependencies": {}
+}
